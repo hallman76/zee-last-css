@@ -10,7 +10,7 @@
  */
 function zee_last_enqueue_scripts() {
 
-	$zee_uri = get_option('zee_last_file_uri', get_bloginfo('template_directory') . '/zee-last.css' );
+	$zee_uri = get_option('zee_last_file_uri', get_bloginfo('template_directory') . '/override.css' );
 	
 	wp_enqueue_style( 'zee-last', $zee_uri);
 }
@@ -92,7 +92,7 @@ function zee_last_options() {
     			</th>
     			<td >
     				<input name="zee_last_file_uri" type="text" id="zee_last_file_uri" value="<?php echo get_option('zee_last_file_uri'); ?>" /><br/>
-    				<em>default: <?php echo get_bloginfo('template_directory') . '/zee-last.css' ?></em>
+    				<em>default: <?php echo get_bloginfo('template_directory') . '/override.css' ?></em>
     			</td>
     		</tr>
     		<tr valign="top">
