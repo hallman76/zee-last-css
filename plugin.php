@@ -10,7 +10,7 @@
  */
 function zee_last_enqueue_scripts() {
 
-	$zee_uri = get_option('zee-css-file-uri', get_bloginfo('template_directory') . '/zee-last.css' );
+	$zee_uri = get_option('zee_last_file_uri', get_bloginfo('template_directory') . '/zee-last.css' );
 	
 	wp_enqueue_style( 'zee-last', $zee_uri);
 }
