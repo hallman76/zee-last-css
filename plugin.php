@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Zee Last CSS Loader
- * Plugin URI: http://github.om/hallman76/zee-last-css
+ * Plugin URI: http://github.com/hallman76/zee-last-css
  * Description: Loads CSS after other plugins have loaded to allow developers to overwrite styles defined in plugins 
  * Version: 0.9
  * Author: Steve Hallman
